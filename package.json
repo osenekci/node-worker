@@ -1,0 +1,36 @@
+{
+  "name": "node-worker-manager-lc",
+  "version": "0.0.2",
+  "description": "Background task manager",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "workermanager": "bin/workermanager"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/osenekci/node-worker-manager.git"
+  },
+  "keywords": [
+    "node",
+    "worker",
+    "background",
+    "task",
+    "manager"
+  ],
+  "author": "ozgursenekci@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osenekci/node-worker-manager/issues"
+  },
+  "homepage": "https://github.com/osenekci/node-worker-manager#readme",
+  "dependencies": {
+    "node-libs-lc": "0.0.2",
+    "node-utils-lc": "0.0.4"
+  }
+}
