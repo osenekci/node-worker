@@ -1,5 +1,5 @@
 {
-  "name": "node-worker-manager-lc",
+  "name": "node-worker-lc",
   "version": "0.0.2",
   "description": "Background task manager",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "bin": {
-    "workermanager": "bin/workermanager"
+    "node-worker": "bin/node-worker"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/osenekci/node-worker-manager#readme",
   "dependencies": {
-    "node-libs-lc": "0.0.2",
-    "node-utils-lc": "0.0.4"
+    "node-config-lc": "^1.0.0",
+    "node-logger-lc": "^1.0.0"
   }
 }
