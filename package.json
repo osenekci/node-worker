@@ -1,6 +1,6 @@
 {
   "name": "node-worker-lc",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Background task manager",
   "main": "index.js",
   "directories": {
